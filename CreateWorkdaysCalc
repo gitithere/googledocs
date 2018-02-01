@@ -1,0 +1,2 @@
+From: https://webapps.stackexchange.com/questions/77830/autofill-dates-but-skip-weekends
+To calculate workdays dates use: =IF(WEEKDAY(A2)=6,A2+3,A2+1)
